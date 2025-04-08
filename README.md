@@ -11,3 +11,5 @@
 
 
 <img src="https://github.com/rodrigocassiano0/projeto-responsivo-2/blob/master/assets/responsivo%202.PNG?raw=true">
+
+<img src="https://github.com/rodrigocassiano0/projeto-responsivo-2/blob/master/assets/responsivo%202%202.PNG?raw=true">
