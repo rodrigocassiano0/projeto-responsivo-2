@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border-radius: 30px;
+    border: none;
+    background-color: #665AE1;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+img {
+   margin-left: 125px;
+   display: inline-block;
+   width: 568px;
+   height: 500px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    width: 514px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button2 {
+    border-radius: 32px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        flex-shrink: 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        color: #515151;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: normal;
+        height: 52px;
+        margin-bottom: 7px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        width: 263px;
+    }
+
+    h2 {
+        color: #515151;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 17px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 17px;
+        margin-top: 7px;
+    }
+
+    .button2 {
+        margin: auto;
+    }
+}
+    
